@@ -1,25 +1,32 @@
-.grid{
+.grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 1px;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: .05fr 1fr 1fr;
 	grid-row-gap: 1px;
 }
-.text-center{
+.text-center {
 	text-align: center
 }
-.center{
+.center {
 	grid-column: 2/3
 }
-p{
-	color: rgb(255,48,0);
+p {
+	color: rgb(237,28,37);
 	font-family: Geneva
 }
-.right{
+.right {
 	grid-column: 3/3
 }
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+body {
+	background: linear-gradient(to right, rgb(88,168,255), rgb(237,28,37));
+}
+a {
+	
+}
+.blue {
+	color: rgb(88,168,255)
+}
+.left {
+	grid-column: 1/2
 }
